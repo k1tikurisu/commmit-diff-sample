@@ -1,7 +1,4 @@
-type SampleType = {
-  id: number;
-  name: string;
-}
+import { SampleType } from "./type";
 
 const Sample = ({ id, name }: SampleType) => {
   console.log(id, name);
